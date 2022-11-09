@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ListaDeCompras
@@ -24,7 +17,7 @@ namespace ListaDeCompras
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
-            using(var frm = new FrmUsuarios())
+            using (var frm = new FrmUsuarios())
             {
                 frm.ShowDialog();
             }
@@ -32,7 +25,7 @@ namespace ListaDeCompras
 
         private void btnSupermercados_Click(object sender, EventArgs e)
         {
-            using(var frm = new FrmSupermercados())
+            using (var frm = new FrmSupermercados())
             {
                 frm.ShowDialog();
             }
@@ -40,7 +33,7 @@ namespace ListaDeCompras
 
         private void btnListas_Click(object sender, EventArgs e)
         {
-            using(var frm = new FrmListas())
+            using (var frm = new FrmListas())
             {
                 frm.ShowDialog();
             }

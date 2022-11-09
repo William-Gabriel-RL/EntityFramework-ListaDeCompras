@@ -16,5 +16,15 @@ namespace ListaDeCompras
                 dataGridView1.DataSource = (from usuario in context.Usuarios select usuario).ToList();
             }
     }
-}
+
+        private void adicionarStripButton_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void FrmUsuarios_Load(object sender, System.EventArgs e)
+        {
+
+        }
+    }
 }

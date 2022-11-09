@@ -104,14 +104,35 @@
     <Compile Include="Migrations\202211071809160_criando listas.designer.cs">
       <DependentUpon>202211071809160_criando listas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211081402032_alterando Lista e Usuario.cs" />
+    <Compile Include="Migrations\202211081402032_alterando Lista e Usuario.designer.cs">
+      <DependentUpon>202211081402032_alterando Lista e Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202211081638115_criando produto e relacao com supermercado.cs" />
+    <Compile Include="Migrations\202211081638115_criando produto e relacao com supermercado.designer.cs">
+      <DependentUpon>202211081638115_criando produto e relacao com supermercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202211081657217_consertando cascade.cs" />
+    <Compile Include="Migrations\202211081657217_consertando cascade.designer.cs">
+      <DependentUpon>202211081657217_consertando cascade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202211081734308_produtomap foto agora opcional.cs" />
+    <Compile Include="Migrations\202211081734308_produtomap foto agora opcional.designer.cs">
+      <DependentUpon>202211081734308_produtomap foto agora opcional.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Base\BaseModel.cs" />
+    <Compile Include="Models\ItemDaLista.cs" />
     <Compile Include="Models\Lista.cs" />
     <Compile Include="Models\Maps\ListaMap.cs" />
+    <Compile Include="Models\Maps\ProdutoMap.cs" />
+    <Compile Include="Models\Maps\ProdutoSupermercadoMap.cs" />
     <Compile Include="Models\Maps\SupermercadoMap.cs" />
     <Compile Include="Models\Maps\UsuarioMap.cs" />
+    <Compile Include="Models\ProdutoSupermercado.cs" />
     <Compile Include="Models\Supermercado.cs" />
     <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Produto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -146,6 +167,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202211071809160_criando listas.resx">
       <DependentUpon>202211071809160_criando listas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211081402032_alterando Lista e Usuario.resx">
+      <DependentUpon>202211081402032_alterando Lista e Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211081638115_criando produto e relacao com supermercado.resx">
+      <DependentUpon>202211081638115_criando produto e relacao com supermercado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211081657217_consertando cascade.resx">
+      <DependentUpon>202211081657217_consertando cascade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211081734308_produtomap foto agora opcional.resx">
+      <DependentUpon>202211081734308_produtomap foto agora opcional.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

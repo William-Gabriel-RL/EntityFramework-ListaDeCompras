@@ -77,6 +77,7 @@
             this.adicionarStripButton.Name = "adicionarStripButton";
             this.adicionarStripButton.Size = new System.Drawing.Size(115, 29);
             this.adicionarStripButton.Text = "Adicionar";
+            this.adicionarStripButton.Click += new System.EventHandler(this.adicionarStripButton_Click);
             // 
             // toolStripSeparator1
             // 
@@ -126,6 +127,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmUsuarios";
             this.Text = "Usuarios";
+            this.Load += new System.EventHandler(this.FrmUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

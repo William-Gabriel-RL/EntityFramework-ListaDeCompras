@@ -1,4 +1,6 @@
-﻿namespace ListaDeCompras.Models
+﻿using System.Collections.Generic;
+
+namespace ListaDeCompras.Models
 {
     public class Supermercado : BaseModel
     {
@@ -8,5 +10,6 @@
         public string Cidade { get; set; }
         public string Estado { get; set; }
         public string CEP { get; set; }
+        public virtual ICollection<ProdutoSupermercado> ProdutoSupermercado { get; set; }
     }
 }
