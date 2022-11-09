@@ -11,5 +11,6 @@ namespace ListaDeCompras.Models
         public string Estado { get; set; }
         public string CEP { get; set; }
         public virtual ICollection<ProdutoSupermercado> ProdutoSupermercado { get; set; }
+        public virtual ICollection<ItemDaLista> ItemDaLista { get; set; }
     }
 }

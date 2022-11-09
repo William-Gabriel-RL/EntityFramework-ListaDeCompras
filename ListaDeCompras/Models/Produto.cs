@@ -10,6 +10,7 @@ namespace ListaDeCompras
         public string Descricao { get; set; }
         public byte[] Foto { get; set; }
         public virtual ICollection<ProdutoSupermercado> ProdutoSupermercado { get; set; }
+        public virtual ICollection<ItemDaLista> ItemDaLista { get; set; }
 
     }
 }

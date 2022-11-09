@@ -10,5 +10,6 @@ namespace ListaDeCompras.Models
         public double Total { get; set; }
         public int IdUsuario { get; set; }
         public virtual Usuario Usuario { get; set; }
+        public virtual ICollection<ItemDaLista> ItemDaLista { get; set; }
     }
 }

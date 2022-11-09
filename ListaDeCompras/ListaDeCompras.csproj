@@ -120,10 +120,15 @@
     <Compile Include="Migrations\202211081734308_produtomap foto agora opcional.designer.cs">
       <DependentUpon>202211081734308_produtomap foto agora opcional.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211091438461_relacionamento lista-produto.cs" />
+    <Compile Include="Migrations\202211091438461_relacionamento lista-produto.designer.cs">
+      <DependentUpon>202211091438461_relacionamento lista-produto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Base\BaseModel.cs" />
     <Compile Include="Models\ItemDaLista.cs" />
     <Compile Include="Models\Lista.cs" />
+    <Compile Include="Models\Maps\ItemDaListaMap.cs" />
     <Compile Include="Models\Maps\ListaMap.cs" />
     <Compile Include="Models\Maps\ProdutoMap.cs" />
     <Compile Include="Models\Maps\ProdutoSupermercadoMap.cs" />
@@ -179,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202211081734308_produtomap foto agora opcional.resx">
       <DependentUpon>202211081734308_produtomap foto agora opcional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211091438461_relacionamento lista-produto.resx">
+      <DependentUpon>202211091438461_relacionamento lista-produto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
